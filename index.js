@@ -41,10 +41,24 @@ class Airplane {
           + It should return a string with `name` and `age`. Example: "Mary, 50"
   */
   
- class Person {
-    
+ class Person { 
+   constructor(name, age){
+     this.stomach = empty 
+     this.Person = eat 
+
+   }
+   
+   someFood(){
+     if(this.Person === 0){
+       return "empty"
+     } else { 
+       this.stomach = 
+       this.Person -1;
+     }
+   }
+   
   }
-  
+   
   /*
     TASK 2
       - Write a Car class whose constructor initializes `model` and `milesPerGallon` from arguments.
@@ -59,8 +73,12 @@ class Airplane {
           + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
   */
   
- class Car {
-    
+ class Car { 
+   constructor(model, milesPerGallon){
+     this.tank = tank;
+     this.odometer = odometer; 
+   }
+    odometer.fill 
   }
   
   /*
@@ -75,7 +93,12 @@ class Airplane {
           + Speaking should return a phrase `Hello my name is {name}, I am from {location}`.
           + {name} and {location} of course come from the instance's own properties.
   */
- class Lambdasian {
+ class Lambdasian { 
+   constructor({name, age, location}){
+     this.name= name; 
+     this.age = age;
+     this.location = location;
+   }
     
   }
   
@@ -94,6 +117,11 @@ class Airplane {
           + `grade` receives a `student` object and a `subject` string as arguments and returns '{student.name} receives a perfect score on {subject}'
   */
  class Instructor {
+   constructor({specialty, favlanguage, catchPhrase}){
+     this.specialty = specialty;
+     this.favlanguage = favlanguage;
+     this.catchPhrase = catchPhrase
+   }
 
  }
   /*
@@ -112,6 +140,12 @@ class Airplane {
           + `sprintChallenge` similar to PRAssignment but returns `student.name has begun sprint challenge on {subject}`
   */
  class Student {
+   constructor({previousBackground, className,favSubject}){
+     this.previousBackground = previousBackground;
+     this.className = className;
+     this.favSubject = favSubject;
+   }
+   
      
  }
   
@@ -129,6 +163,10 @@ class Airplane {
           + `debugsCode` a method that takes in a student object and a subject and returns `{name} debugs {student.name}'s code on {subject}`
   */
  class ProjectManager {
+   constructor({gradClassName, favInstructor, }){
+     this.gradClassName = gradClassName;
+     this.favInstructor = favInstructor;
+   }
      
  }
   /*
